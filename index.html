@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>No Mo' Pesos for Bezos — TheOrc</title>
+
+  <meta name="description" content="Warum TheOrc den Twitch Affiliate Status bewusst nicht aktiviert. Integrität vor Monetarisierung.">
+  <meta property="og:title" content="No Mo' Pesos for Bezos — TheOrc">
+  <meta property="og:description" content="Ich könnte. Ich will nicht. Unterhaltung statt Kassenbon.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://theorc81.github.io/no-mo-pesos/">
+  <meta name="theme-color" content="#111111">
+
+  <style>
+    :root{
+      --bg:#0b0b0b;
+      --fg:#f2f2f2;
+      --muted:#a0a0a0;
+      --orc:#9f2929;
+      --card:#111;
+      --border:#262626;
+      --btn:#1a1a1a;
+      --btnH:#232323;
+      --focus:#e04b4b;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      background: radial-gradient(1200px 600px at 70% 85%, #111 0, #0b0b0b 60%, #080808 100%);
+      color:var(--fg);
+    }
+    .wrap{max-width:880px;margin:0 auto;padding:32px 18px 56px}
+    header{margin:12px 0 22px}
+    h1{
+      margin:0 0 8px;
+      font-size:clamp(34px,6vw,64px);
+      letter-spacing:.02em;
+      color:var(--orc);
+      text-shadow:0 0 18px rgba(159,41,41,.35);
+      font-weight:900;
+      animation:throb 1.8s ease-in-out infinite;
+    }
+    @keyframes throb{0%,100%{transform:scale(1)}50%{transform:scale(1.02)}}
+    h2{margin:28px 0 8px;font-size:1.25rem}
+    p{margin:.4rem 0 1rem;color:var(--muted);line-height:1.6}
+    .card{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:12px;
+      padding:18px 18px;
+      margin:16px 0;
+    }
+    .quote{
+      font-size:1.4rem;
+      color:var(--fg);
+      font-weight:800;
+      letter-spacing:.01em;
+    }
+    .grid{display:grid;gap:14px}
+    .cta{
+      display:inline-flex;align-items:center;gap:.6rem;
+      padding:12px 16px;border-radius:10px;border:1px solid var(--border);
+      background:var(--btn);color:var(--fg);text-decoration:none;font-weight:700;
+      transition:transform .08s ease, background .15s ease, border-color .15s ease;
+    }
+    .cta:hover{background:var(--btnH);transform:translateY(-1px);border-color:#333}
+    .cta:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+    footer{margin-top:28px;color:#6a6a6a;font-size:.9rem}
+    code{background:#131313;border:1px solid #222;padding:.12rem .32rem;border-radius:6px}
+    .muted{color:#8a8a8a}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>No Mo' Pesos for Bezos</h1>
+      <p class="muted">Ein offener Brief von <strong>TheOrc</strong>. Ich könnte Affiliate aktivieren. Ich lasse es bleiben.</p>
+    </header>
+
+    <section class="card grid">
+      <h2>Warum ich den Affiliate Status nicht aktiviere</h2>
+      <p>Weil ich kann und genau deshalb nicht muss. Affiliate bedeutet Werbung, Abos, Bits und eine engere Bindung an Plattformlogik. Das kostet Freiheit. Danke, nein.</p>
+    </section>
+
+    <section class="card grid">
+      <h2>Was ich stattdessen will</h2>
+      <p>Ich will zocken, reden und Blödsinn bauen. Ohne Sales Funnel. Zuschauer sollen da sein, weil sie Bock haben. Unterhaltung statt Kassenbon.</p>
+    </section>
+
+    <section class="card grid">
+      <h2>Was das konkret heißt</h2>
+      <ul class="muted" style="margin:0 0 0 1.1rem;line-height:1.6">
+        <li>Ich streame aus Spaß. Nicht für KPIs.</li>
+        <li>Ich nehme keine Subs, keine Bits, keine Donations auf Twitch.</li>
+        <li>Wer Geld loswerden will, spendet an etwas Sinnvolles. Zum Beispiel Tierheime.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <div class="quote">Ich könnte. Aber ich will nicht.</div>
+      <div class="quote">No Mo' Pesos for Bezos.</div>
+    </section>
+
+    <p>
+      <a class="cta" href="https://theorc81.github.io/doNo/" target="_blank" rel="noopener noreferrer">➜ Spendenidee statt Sub Button</a>
+      &nbsp;&nbsp;
+      <a class="cta" href="https://twitch.tv/TheOrc81" target="_blank" rel="noopener noreferrer">➜ Zurück zum Stream</a>
+    </p>
+
+    <footer>
+      <div>Kontakt: <span class="muted">TheOrc</span></div>
+      <div class="muted">Diese Seite ist bewusst simpel gehalten. Inhalt vor Effekten.</div>
+    </footer>
+  </div>
+</body>
+</html>
